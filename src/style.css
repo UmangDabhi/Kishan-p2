@@ -1,0 +1,80 @@
+.text-with-white-border {
+  color: black;
+  text-shadow:
+    -1px 0 white,
+    1px 0 white,
+    0 -1px white,
+    0 1px white,
+    -1px -1px white,
+    1px 1px white,
+    -1px 1px white,
+    1px -1px white;
+}
+
+.text-with-black-border {
+  text-shadow:
+    -1px 0 black,
+    1px 0 black,
+    0 -1px black,
+    0 1px black,
+    -1px -1px black,
+    1px 1px black,
+    -1px 1px black,
+    1px -1px black;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slider-inner-left {
+  display: flex;
+  width: 200%; /* Double the width to ensure seamless scroll */
+  animation: scroll_left 15s linear infinite;
+}
+
+.slider-inner-right {
+  display: flex;
+  width: 200%; /* Double the width to ensure seamless scroll */
+  animation: scroll_right 15s linear infinite;
+}
+
+.slider-item {
+  flex: 0 0 25%; /* Adjust based on how many items you want visible */
+  box-sizing: border-box;
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@keyframes scroll_left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+    /* Move by the width of the slider */
+  }
+}
+
+@keyframes scroll_right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+    /* Move from off-screen right to on-screen */
+  }
+}
