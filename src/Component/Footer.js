@@ -6,7 +6,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <>
-      <div class="bg-black text-white brygada-1918-400">
+      <div id="footer" class="bg-black text-white brygada-1918-400">
         <div class="container  mx-auto py-10">
           <div class="ml-20 grid grid-cols-3 gap-10 ">
             <div>
@@ -40,16 +40,16 @@ export const Footer = () => {
             </div>
           </div>
           <div class="flex justify-center space-x-10 mt-10">
-            <a href="#" class="text-2xl">
+            <a href="#" class="text-2xl hover:text-red-400">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="#" class="text-2xl">
+            <a href="#" class="text-2xl hover:text-blue-700">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="#" class="text-2xl">
+            <a href="#" class="text-2xl hover:text-sky-400">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="#" class="text-2xl">
+            <a href="#" class="text-2xl hover:text-red-700">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>

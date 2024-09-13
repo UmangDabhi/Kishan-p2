@@ -23,7 +23,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-yellow-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-yellow-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -45,7 +45,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-green-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-green-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -66,7 +66,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-amber-900 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-amber-900 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -87,7 +87,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-blue-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-blue-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -109,7 +109,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-amber-600 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-amber-600 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -131,7 +131,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-amber-600 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-amber-600 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -153,7 +153,7 @@ export const Project = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-green-600 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-green-600 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us

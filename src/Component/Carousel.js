@@ -27,7 +27,7 @@ const Carousel = () => {
   return (
     <div style={{ height: "30rem", marginBottom: "4rem" }}>
       <div className="text-center py-5">
-        <span className="text-5xl text-black hover:text-white text-with-black-border">
+        <span className="text-5xl text-black hover:text-white text-with-black-border titan-one-regular">
           Posters
         </span>
       </div>
@@ -69,7 +69,7 @@ const Carousel = () => {
               style={style}
             >
               <img
-                className="group-hover:grayscale-0 grayscale transition duration-300"
+                className="group-hover:grayscale-0 grayscale transition duration-700"
                 src={image}
                 alt={`Slide ${index}`}
               />
@@ -82,13 +82,13 @@ const Carousel = () => {
       <div className="flex justify-between mt-4">
         <button
           onClick={swipeLeft}
-          className="bg-gray-400 p-2 rounded hover:bg-black hover:text-white transition-all duration-300"
+          className="bg-gray-400 p-2 rounded hover:bg-black hover:text-white transition-all duration-700"
         >
           Swipe Left
         </button>
         <button
           onClick={swipeRight}
-          className="bg-gray-400 p-2 rounded hover:bg-black hover:text-white transition-all duration-300"
+          className="bg-gray-400 p-2 rounded hover:bg-black hover:text-white transition-all duration-700"
         >
           Swipe Right
         </button>

@@ -25,7 +25,7 @@ export const Home = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-yellow-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-yellow-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -47,7 +47,7 @@ export const Home = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-green-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-green-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -68,7 +68,7 @@ export const Home = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-amber-900 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-amber-900 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -89,7 +89,7 @@ export const Home = () => {
           </p>
           <div className="flex justify-center absolute top-72 mx-auto left-40">
             <button
-              className="mt-4 titan-one-regular bg-white text-blue-400 rounded-3xl text-3xl p-3  transition duration-300 ease-in-out"
+              className="mt-4 titan-one-regular bg-white text-blue-400 rounded-3xl text-3xl p-3  transition duration-700 ease-in-out"
               style={{ boxShadow: "gray 4px 4px 4px " }}
             >
               Visit us
@@ -127,7 +127,7 @@ export const Home = () => {
       <Hero />
       <div className="flex flex-col items-center justify-center py-10 bg-gray-100">
         <div class="text-center py-5">
-          <span className=" text-5xl md:text-8xl text-black transition-all duration-300 ease-in-out  hover:text-white text-with-black-border titan-one-regular">
+          <span className=" text-5xl md:text-8xl text-black transition-all duration-700 ease-in-out  hover:text-white text-with-black-border titan-one-regular">
             Selected Work
           </span>
         </div>
@@ -199,7 +199,7 @@ export const Home = () => {
             <p className="text-7xl brygada-1918-400">Working Together ?</p>
             <button
               onClick={() => {
-                navigator.clipboard.writeText("your-email@example.com"); // replace with the email you want to copy
+                navigator.clipboard.writeText("kishanmaher5678@gmail.com"); // replace with the email you want to copy
                 alert("Email copied to clipboard!");
               }}
               className="inter-light-100 text-black mt-8 text-3xl bg-white py-2 px-3"

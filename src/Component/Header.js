@@ -15,11 +15,11 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800 w-14 h-14">
-            <img src={Logo} alt="logo" className="w-full h-full object-cover" />
+            <img src={Logo} alt="logo" className="w-full h-full " />
           </div>
 
           {/* Navbar Links */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex gap-x-24">
             <Link to="/posters" className="text-gray-800 hover:text-gray-600">
               Poster
             </Link>

@@ -30,8 +30,8 @@ export const Posters = () => {
     <>
       <div className="flex flex-col items-center justify-center py-10 bg-gray-100">
         <div class="text-center py-5">
-          <span className="text-5xl text-black hover:text-white text-with-black-border titan-one-regular">
-            Posters & Back Covers
+          <span className="text-5xl  titan-one-regular text-black hover:text-white text-with-black-border titan-one-regular">
+            Posters & Book Covers
           </span>
         </div>
         {/* Grid container for cards */}
